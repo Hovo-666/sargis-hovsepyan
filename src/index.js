@@ -4,10 +4,13 @@ import App from './App';
 import './index.css';
 import { ThemeProvider } from './Context';
 
-const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(
-  <ThemeProvider>
-      <App />
+const rootElement = document.getElementById('root');
 
-  </ThemeProvider>
+ReactDOM.render(
+  <React.StrictMode>
+    <ThemeProvider>
+      <App />
+    </ThemeProvider>
+  </React.StrictMode>,
+  rootElement
 );
