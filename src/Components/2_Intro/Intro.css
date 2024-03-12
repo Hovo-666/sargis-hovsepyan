@@ -188,7 +188,7 @@ background: #25d366;
 @media screen and (max-width: 1000px) {
     .intro{
       flex-direction: column;
-      height: 50rem;
+      height: 20rem;
     }
     .i-right{
         transform: scale(0.79);
@@ -209,11 +209,5 @@ background: #25d366;
     .i-name>:nth-child(2) {
         font-size: 2rem;
     }
-    .intro {
-        display: flex;
-        height: 60vh;
-        margin-top: 3rem;
-    }
-
 
   }

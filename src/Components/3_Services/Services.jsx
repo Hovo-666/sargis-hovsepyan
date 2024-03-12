@@ -134,7 +134,7 @@ function Services() {
             </div>
         </div>
         <div className="awesome">
-                <span style={{color: darkMode? 'white' : ''}}>Այլ ստեղծագործություններ</span>
+                <span style={{color: darkMode? 'white' : ''}}>Այլ</span>
                 <span></span>
                 <spane className="saquliki_garlaxnery">
                 Պաղպաղակ ― <a href="https://granish.org/sargis-hovsepyan-paghpaghak/">https://granish.org/sargis-hovsepyan-paghpaghak/</a> <br /><br />
