@@ -1,9 +1,7 @@
-import React from 'react'
-import './Footer.css';
+import React from "react";
+import "./Footer.css";
 
-import Wave from '../../img/wave.png';
-
-
+import Wave from "../../img/wave.png";
 
 /* import Github from '../../img/github.png';
 import LinkedIn from '../../img/linkedin.png';
@@ -14,23 +12,39 @@ import wa from '../../img/whatsapp.png'; */
 function Footer() {
   return (
     <div className="footer">
-      <img src={Wave} alt="" style={{width:'100%'}}/>
+      <img src={Wave} alt="" style={{ width: "100%" }} />
       <div className="f-content">
-    
         <div className="f-icons">
-        <div className="icon github">
-                    <a href="https://www.facebook.com/sargis.hovsepyan?mibextid=AEUHqQ" target="_blank" rel="noreferrer">
-                        <div className="tooltip">Facebook</div>
-                        <div className="circle_tooltip"><span className="fab fa-brands fa-facebook fa-3x"></span> </div>
-                    </a>
-                 </div>
+          <div className="icon github">
+            <a
+              href="https://www.facebook.com/sargis.hovsepyan?mibextid=AEUHqQ"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <div className="tooltip">Facebook</div>
+              <div className="circle_tooltip">
+                <span className="fab fa-brands fa-facebook fa-3x"></span>{" "}
+              </div>
+            </a>
+          </div>
+          <div className="icon github">
+            <a
+              href="https://discord.gg/p6v9T3m5"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <div className="tooltip">Discord</div>
+              <div className="circle_tooltip">
+                <span className="fab fa-brands fa-discord fa-3x"></span>{" "}
+              </div>
+            </a>
+          </div>
         </div>
-        
+
         <span>®Հեղինակային իրավունքները պաշտպանված են (2024)</span>
-        
       </div>
     </div>
-  )
+  );
 }
 
-export default Footer
+export default Footer;

@@ -42,7 +42,8 @@ function Services() {
 
 
     return (
-        <div className='services' id="Services"> {/* id for link(react-scroll) in Navbar.jsx */}
+        <>
+            <div className='services' id="Services"> {/* id for link(react-scroll) in Navbar.jsx */}
             
             <div className="awesome">
                 <span style={{color: darkMode? 'white' : ''}}>Երկեր</span>
@@ -132,6 +133,25 @@ function Services() {
              
             </div>
         </div>
+        <div className="awesome">
+                <span style={{color: darkMode? 'white' : ''}}>Այլ ստեղծագործություններ</span>
+                <span></span>
+                <spane className="saquliki_garlaxnery">
+                Պաղպաղակ ― <a href="https://granish.org/sargis-hovsepyan-paghpaghak/">https://granish.org/sargis-hovsepyan-paghpaghak/</a> <br /><br />
+Երրորդ․․․մաս ― <a href="https://granish.org/sargis-hovsepyan-story/">https://granish.org/sargis-hovsepyan-story/</a><br /><br />
+ARMageddon ― <a href="https://granish.org/armageddon/">https://granish.org/armageddon/</a><br /><br />
+Ֆերգանա ― <a href="https://granish.org/fergana/">https://granish.org/fergana/</a><br /><br />
+Ես ու իմ ընկեր Շուռը․․․ ― <a href="https://granish.org/shur/">https://granish.org/shur/</a><br /><br />
+Տափակ քար ― <a href="https://inknagir.org/?p=10074">https://inknagir.org/?p=10074</a><br /><br />
+ 
+Դեժավյու ― <a href="https://granish.org/dejavu/">https://granish.org/dejavu/</a> (դրամատուրգիա)<br /><br />
+Համբարձման գիշեր ― <a href="https://tatron-drama.am/archives/1228">https://tatron-drama.am/archives/1228</a> (պիես)<br /><br />
+                    <div class="container">
+                   </div>
+                </spane>
+                <div className="blur s-blur1" style={{ background: "#ABF1FF94" }}></div>
+            </div>
+        </>
     )
 }
 

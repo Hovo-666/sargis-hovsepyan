@@ -209,7 +209,11 @@ background: #25d366;
     .i-name>:nth-child(2) {
         font-size: 2rem;
     }
-
+    .intro {
+        display: flex;
+        height: 60vh;
+        margin-top: 3rem;
+    }
 
 
   }
