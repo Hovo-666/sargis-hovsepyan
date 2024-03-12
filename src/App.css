@@ -46,7 +46,6 @@
     padding: 0.5rem 1rem;
   }
   .saqulik { 
-    border: 1px solid red;
     width: calc(100% + 50px);
     transform: scale(1) !important;
     height: auto;
